@@ -69,7 +69,6 @@ Internet → CloudFront Distribution → Private S3 Bucket (Static Website)
 ## 📋 Deployment Steps
 1. **Initialize Terraform**
 ```bash
-cd day14
 terraform init
 ````
 
@@ -170,4 +169,3 @@ By completing this project, I gained hands-on experience in:
 * CloudFront ensures fast, secure, and scalable global content delivery.
 * This setup is production-ready for static websites with private S3 origins.
 
-```
