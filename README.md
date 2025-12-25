@@ -7,6 +7,9 @@ The entire setup is managed via Terraform, ensuring reproducibility and version 
 ---
 
 ## 🏗️ Architecture
+
+![Architecture](screenshots/terraform_init.png)
+
 ```
 
 Internet → CloudFront Distribution → Private S3 Bucket (Static Website)
@@ -21,6 +24,51 @@ Internet → CloudFront Distribution → Private S3 Bucket (Static Website)
 - **Terraform**: Automates the creation and management of all AWS resources.
 
 ---
+# Proof of Work: Static Website Hosting on AWS
+
+This document provides screenshots to demonstrate the successful deployment of my **Static Website Hosting project** on AWS using Terraform.
+
+---
+
+##  Terraform Initialization
+*Screenshot showing `terraform init` successful execution.*
+
+![Terraform Init](screenshots/terraform_init.png)
+
+---
+
+##  Terraform Plan
+*Screenshot showing the execution plan before applying.*
+
+![Terraform Plan](screenshots/terraform_plan.png)
+
+
+---
+
+##  Terraform Apply
+*Screenshot showing resources being created successfully.*
+
+![Terraform Apply](screenshots/terraform_apply.png)
+
+---
+
+##  CloudFront Distribution
+*Screenshot showing CloudFront distribution created and deployed.*
+
+![CloudFront Distribution](screenshots/cloudfront_distribution.png)
+
+---
+
+##  Website Access
+*Screenshot showing the deployed static website running via CloudFront URL.*
+
+![Website Access](screenshots/website_access.png)
+![Website Access](screenshots/website_access.png)
+
+
+> All screenshots are taken directly from my local environment and AWS Management Console to validate the full deployment of the project using Terraform.
+
+
 
 ## 📁 Project Structure
 ```
@@ -87,7 +135,7 @@ terraform apply
 Type `yes` when prompted to confirm deployment.
 
 4. **Access Your Website**
-   After deployment, Terraform outputs the CloudFront URL:
+   After deployment, Terraform outputs the CloudFront URL: 
 
 ```
 website_url = "https://d123xyz.cloudfront.net"
