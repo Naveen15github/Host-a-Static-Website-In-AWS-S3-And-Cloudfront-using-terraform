@@ -207,7 +207,7 @@ By completing this project, I gained hands-on experience in:
 * [AWS S3 Static Website Hosting Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
 * [AWS CloudFront Documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 * [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-* Video Guide: *Host A Static Website In AWS S3 And CloudFront (Terraform)* – 30-day AWS Terraform series.
+
 
 ---
 
