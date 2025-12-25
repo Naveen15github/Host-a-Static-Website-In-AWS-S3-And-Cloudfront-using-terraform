@@ -8,7 +8,7 @@ The entire setup is managed via Terraform, ensuring reproducibility and version 
 
 ## 🏗️ Architecture
 
-![Architecture](screenshots/terraform_init.png)
+![Architecture](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Gemini_Generated_Image_x5c017x5c017x5c0.png)
 
 ```
 
@@ -33,14 +33,14 @@ This document provides screenshots to demonstrate the successful deployment of m
 ##  Terraform Initialization
 *Screenshot showing `terraform init` successful execution.*
 
-![Terraform Init](screenshots/terraform_init.png)
+![Terraform Init](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(256).png)
 
 ---
 
 ##  Terraform Plan
 *Screenshot showing the execution plan before applying.*
 
-![Terraform Plan](screenshots/terraform_plan.png)
+![Terraform Plan](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(257).png)
 
 
 ---
@@ -48,22 +48,22 @@ This document provides screenshots to demonstrate the successful deployment of m
 ##  Terraform Apply
 *Screenshot showing resources being created successfully.*
 
-![Terraform Apply](screenshots/terraform_apply.png)
+![Terraform Apply](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(258).png)
 
 ---
 
 ##  CloudFront Distribution
 *Screenshot showing CloudFront distribution created and deployed.*
 
-![CloudFront Distribution](screenshots/cloudfront_distribution.png)
+![CloudFront Distribution](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(259).png)
 
 ---
 
 ##  Website Access
 *Screenshot showing the deployed static website running via CloudFront URL.*
 
-![Website Access](screenshots/website_access.png)
-![Website Access](screenshots/website_access.png)
+![Website Access](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(260).png)
+![Website Access](https://github.com/Naveen15github/Host-a-Static-Website-In-AWS-S3-And-Cloudfront-using-terraform/blob/e3afc10a970f6504c9fee4e9497d18828e5ebf03/Screenshot%20(261).png)
 
 
 > All screenshots are taken directly from my local environment and AWS Management Console to validate the full deployment of the project using Terraform.
